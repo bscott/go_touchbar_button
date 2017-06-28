@@ -14,6 +14,7 @@
 		5B9957B61F0333E300EC5E8D /* go_touchbar_buttonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9957B51F0333E300EC5E8D /* go_touchbar_buttonTests.swift */; };
 		5B9957C11F0333E300EC5E8D /* go_touchbar_buttonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9957C01F0333E300EC5E8D /* go_touchbar_buttonUITests.swift */; };
 		5B9957CF1F03358F00EC5E8D /* MyWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9957CE1F03358F00EC5E8D /* MyWindowController.swift */; };
+		5B9957D11F03404400EC5E8D /* favicon.ico in Resources */ = {isa = PBXBuildFile; fileRef = 5B9957D01F03404400EC5E8D /* favicon.ico */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		5B9957C01F0333E300EC5E8D /* go_touchbar_buttonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = go_touchbar_buttonUITests.swift; sourceTree = "<group>"; };
 		5B9957C21F0333E300EC5E8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B9957CE1F03358F00EC5E8D /* MyWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyWindowController.swift; sourceTree = "<group>"; };
+		5B9957D01F03404400EC5E8D /* favicon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = favicon.ico; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				5B9957A71F0333E300EC5E8D /* Assets.xcassets */,
 				5B9957A91F0333E300EC5E8D /* Main.storyboard */,
 				5B9957CE1F03358F00EC5E8D /* MyWindowController.swift */,
+				5B9957D01F03404400EC5E8D /* favicon.ico */,
 				5B9957AC1F0333E300EC5E8D /* Info.plist */,
 			);
 			path = go_touchbar_button;
@@ -234,6 +237,7 @@
 			files = (
 				5B9957A81F0333E300EC5E8D /* Assets.xcassets in Resources */,
 				5B9957AB1F0333E300EC5E8D /* Main.storyboard in Resources */,
+				5B9957D11F03404400EC5E8D /* favicon.ico in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,6 +506,7 @@
 				5B9957C71F0333E300EC5E8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B9957C81F0333E300EC5E8D /* Build configuration list for PBXNativeTarget "go_touchbar_buttonTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +515,7 @@
 				5B9957CA1F0333E300EC5E8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B9957CB1F0333E300EC5E8D /* Build configuration list for PBXNativeTarget "go_touchbar_buttonUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +524,7 @@
 				5B9957CD1F0333E300EC5E8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

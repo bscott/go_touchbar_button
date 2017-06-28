@@ -672,26 +672,24 @@
                         <rect key="contentRect" x="196" y="240" width="480" height="270"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
                     </window>
-                    <touchBar key="touchBar" id="XDV-zU-U7X">
+                    <touchBar key="touchBar" id="TPN-mu-yHT">
                         <touchBarItems>
-                            <touchBarItem id="xO3-zU-UVa">
-                                <viewController key="viewController" id="HLC-rL-Dbb">
-                                    <button key="view" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="1YQ-Ub-y1Q">
+                            <touchBarItem id="iMn-cF-kLT">
+                                <viewController key="viewController" id="Q6B-Iu-bMH">
+                                    <button key="view" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="pWY-Qn-x3X">
                                         <rect key="frame" x="0.0" y="0.0" width="72" height="30"/>
-                                        <buttonCell key="cell" type="push" title="Go" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="trG-Nn-cGU">
+                                        <buttonCell key="cell" type="push" title="Button" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ut3-0B-YbM">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" usesAppearanceFont="YES"/>
                                         </buttonCell>
-                                        <connections>
-                                            <action selector="ButtonTap:" target="B8D-0N-5wS" id="lOo-C1-1tn"/>
-                                        </connections>
                                     </button>
                                 </viewController>
-                                <size key="designTimeSize" width="438" height="289"/>
+                                <size key="designTimeSize" width="72" height="30"/>
                             </touchBarItem>
                         </touchBarItems>
                     </touchBar>
                     <connections>
+                        <outlet property="Icon" destination="pWY-Qn-x3X" id="Njx-MZ-jDi"/>
                         <segue destination="XfG-lQ-9wD" kind="relationship" relationship="window.shadowedContentViewController" id="cq2-FE-JQM"/>
                     </connections>
                 </windowController>

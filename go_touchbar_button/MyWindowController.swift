@@ -8,7 +8,7 @@
 
 import Cocoa
 
-// @avaliable(OSX 10.12.1, *)
+
 class MyWindowController: NSWindowController {
 
     override func windowDidLoad() {
@@ -21,4 +21,7 @@ class MyWindowController: NSWindowController {
         print("Hello Go!")
     }
     
-    }
+    
+    @IBOutlet weak var Icon: NSButton!
+        }
+    
