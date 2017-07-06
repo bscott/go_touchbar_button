@@ -38,7 +38,8 @@ class MyWindowController: NSWindowController {
             switch identifier {
             case NSTouchBarItemIdentifier.first:
                 let item = NSCustomTouchBarItem(identifier: identifier)
-                item.view = NSButton(title: "Go",image: #imageLiteral(resourceName: "favicon.ico"), target: self, action: #selector(onClick))
+//               item.view = NSButton(title: "Go",image: #imageLiteral(resourceName: "favicon.ico"), target: self, action: #selector(onClick))
+               item.view = NSButton(title: "Go",image: NSImage(named:"favicon.ico")!, target: self, action: #selector(onClick))
                 return item
                 
                 
